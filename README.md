@@ -5,6 +5,7 @@
 - php artisan migrate
 - php artisan migrate:fresh
 - php artisan migrate:reset
+- php artisan migrate:rollback --step=1
 - php artisan migrate --path=/database/migrations/2021_02_03_064125_create_media_table.php
 
 - php artisan config:cache
