@@ -31,3 +31,18 @@
 
 #remove last merge code command
 - git reset --hard HEAD^
+
+#Gmail 2-step verification
+
+- 1. enable the 2-step verification to google HERE
+
+- 2. Create App Password to be use by your system HERE
+
+- 3. select Others (custom name) and clicked generate
+
+- 4. go to env file in laravel and edited this
+
+- MAIL_USERNAME=talentscoutphil@gmail.com
+
+- MAIL_PASSWORD=thepasswordgenerated
+
