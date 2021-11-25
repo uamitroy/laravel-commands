@@ -42,7 +42,7 @@
 
 - 4. go to env file in laravel and edited this
 
-- MAIL_USERNAME=talentscoutphil@gmail.com
+- MAIL_USERNAME=yourid@gmail.com
 
 - MAIL_PASSWORD=thepasswordgenerated
 
