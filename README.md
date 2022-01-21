@@ -49,5 +49,7 @@
 # Database group by error
 - SET GLOBAL sql_mode=(SELECT REPLACE(@@sql_mode,'ONLY_FULL_GROUP_BY',''));
 
-
+# Linux Commands
+- sudo apt-get install php-curl
+- sudo apt install zip unzip php-zip
 
