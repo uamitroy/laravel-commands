@@ -53,3 +53,6 @@
 - sudo apt-get install php-curl
 - sudo apt install zip unzip php-zip
 
+# PHP VERSION
+- AddHandler application/x-httpd-php74 .php
+
