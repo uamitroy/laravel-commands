@@ -12,6 +12,11 @@
 - php artisan config:clear
 - php artisan cache:clear
 
+- composer dump-auto
+- php artisan cache:clear && php artisan config:clear && php artisan config:cache && php artisan key:generate
+    
+    
+
 
 - sudo find . -type d -exec chmod 0755 {} \;
 - sudo find . -type f -exec chmod 0644 {} \;
