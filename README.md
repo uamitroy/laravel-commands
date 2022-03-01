@@ -57,7 +57,10 @@
 # Linux Commands
 - sudo apt-get install php-curl
 - sudo apt install zip unzip php-zip
+- sudo chown -R www-data:www-data storage/
+- sudo chown -R www-data:www-data storage/*
 
 # PHP VERSION
 - AddHandler application/x-httpd-php74 .php
+
 
