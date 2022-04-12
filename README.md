@@ -63,4 +63,13 @@
 # PHP VERSION
 - AddHandler application/x-httpd-php74 .php
 
+# Simply use the following command,
+
+- For Export:
+
+- mysqldump -u [user] -p [db_name] | gzip > [filename_to_compress.sql.gz] 
+- For Import:
+
+- gunzip < [compressed_filename.sql.gz]  | mysql -u [user] -p[password] [databasename] 
+
 
