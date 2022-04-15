@@ -63,6 +63,9 @@
 # PHP VERSION
 - AddHandler application/x-httpd-php74 .php
 
+# Argument list too long error for rm, cp, mv commands
+- find . -maxdepth 1 -name '*.json' -delete
+
 # Simply use the following command,
 
 - For Export:
