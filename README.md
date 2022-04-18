@@ -77,11 +77,13 @@
 
 
 # <a target="_blank" href="https://www.digitalocean.com/community/tutorials/how-to-rewrite-urls-with-mod_rewrite-for-apache-on-ubuntu-18-04"> refrence </a>  if dynamic url not found on server, run sudo nano /etc/apache2/sites-available/000-default.conf, then sudo systemctl restart apache2
+   <VirtualHost *:80> 
     <Directory /var/www/html>
         Options Indexes FollowSymLinks MultiViews
         AllowOverride All
         Require all granted
     </Directory>
-      
+    . . .
+</VirtualHost>   
 
 
