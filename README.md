@@ -33,6 +33,9 @@
 - sudo chown -R ubuntu:www-data .env
 - sudo chown -R daemon:daemon storage/*
 
+#There is no permission named `admin.users.getUsers` for guard `web`
+- php artisan cache:forget spatie.permission.cache && php artisan cache:clear
+
 
 #remove last merge code command
 - git reset --hard HEAD^
