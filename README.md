@@ -79,6 +79,19 @@
 - gunzip < [compressed_filename.sql.gz]  | mysql -u [user] -p[password] [databasename] 
 
 
+
+#Gmail stmp
+
+- MAIL_DRIVER=smtp
+- MAIL_HOST=smtp.googlemail.com
+- MAIL_PORT=587
+- MAIL_USERNAME=hello.kumar
+- MAIL_PASSWORD=hggjggghjgjg
+- MAIL_ENCRYPTION=tls
+- MAIL_FROM_ADDRESS=hello.kumar@gmail.com
+- MAIL_FROM_NAME="APP_NAME"
+
+
 #Freelancer Ubantu 64bit .deb
 
   https://s3.amazonaws.com/desktop-production.freelancer.com/latest/installers/freelancer-desktop-app_ubuntu-amd64.deb
